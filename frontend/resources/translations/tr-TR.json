@@ -134,6 +134,10 @@
   "newGridText": "Yeni tablo",
   "newCalendarText": "Yeni takvim",
   "newBoardText": "Yeni pano",
+  "chat": {
+    "relatedQuestion": "İlgili",
+    "serverUnavailable": "Hizmet Geçici Olarak Kullanılamıyor. Lütfen daha sonra tekrar deneyiniz."
+  },
   "trash": {
     "text": "Çöp Kutusu",
     "restoreAll": "Tümünü Geri Yükle",
@@ -228,7 +232,17 @@
     "addAPage": "Sayfa ekle",
     "addAPageToPrivate": "Özel alana sayfa ekle",
     "addAPageToWorkspace": "Çalışma alanına sayfa ekle",
-    "recent": "Son"
+    "recent": "Son",
+    "today": "Bugün",
+    "thisWeek": "Bu Hafta",
+    "others": "Diğerleri",
+    "justNow": "Şu anda",
+    "minutesAgo": "{count} dakika önce",
+    "lastViewed": "Son Görüntülenen",
+    "favoriteAt": "Favorilere Eklendi",
+    "emptyFavorite": "Favori Belge Yok",
+    "removeSuccess": "Başarıyla Kaldırıldı",
+    "favoriteSpace": "Favoriler"
   },
   "notifications": {
     "export": {
@@ -244,6 +258,7 @@
   },
   "button": {
     "ok": "Tamam",
+    "confirm": "Onayla",
     "done": "Bitti",
     "cancel": "İptal",
     "signIn": "Giriş Yap",
@@ -306,6 +321,37 @@
   },
   "settings": {
     "title": "Ayarlar",
+    "accountPage": {
+      "general": {
+        "title": "Hesap adı & profil resmi",
+        "changeProfilePicture": "Profil Resmi Değiştir"
+      },
+      "email": {
+        "title": "Mail",
+        "actions": {
+          "change": "Email Değiş"
+        }
+      },
+      "login": {
+        "loginLabel": "Giriş Yap",
+        "logoutLabel": "Çıkış Yap"
+      },
+      "keys": {
+        "openAIHint": "OpenAI API Anahtarını Gir"
+      }
+    },
+    "workspacePage": {
+      "appearance": {
+        "title": "Görünüm",
+        "options": {
+          "light": "Açık",
+          "dark": "Koyu"
+        }
+      },
+      "theme": {
+        "title": "Tema"
+      }
+    },
     "menu": {
       "appearance": "Görünüm",
       "language": "Dil",
@@ -511,6 +557,23 @@
       "pleaseInputYourStabilityAIKey": "Lütfen Stability AI anahtarınızı girin",
       "clickToLogout": "Geçerli kullanıcıdan çıkış yapmak için tıklayın"
     },
+    "mobile": {
+      "personalInfo": "Kişisel Bilgiler",
+      "username": "Kullanıcı Adı",
+      "usernameEmptyError": "Kullanıcı adı boş olamaz",
+      "about": "Hakkında",
+      "pushNotifications": "Anında Bildirimler",
+      "support": "Destek",
+      "joinDiscord": "Discord'da bize katılın",
+      "privacyPolicy": "Gizlilik Politikası",
+      "userAgreement": "Kullanıcı Sözleşmesi",
+      "termsAndConditions": "Şartlar ve Koşullar",
+      "userprofileError": "Kullanıcı profili yüklenemedi",
+      "userprofileErrorDescription": "Lütfen sorunun devam edip etmediğini kontrol etmek için çıkış yapıp tekrar giriş yapmayı deneyin.",
+      "selectLayout": "Düzen seçin",
+      "selectStartingDay": "Başlangıç gününü seçin",
+      "version": "Sürüm"
+    },
     "shortcuts": {
       "shortcutsLabel": "Kısayollar",
       "command": "Komut",
@@ -533,23 +596,6 @@
         "textAlignRight": "Metni sağa hizala",
         "codeBlockDeleteTwoSpaces": "Kod bloğunda satır başındaki iki boşluğu sil"
       }
-    },
-    "mobile": {
-      "personalInfo": "Kişisel Bilgiler",
-      "username": "Kullanıcı Adı",
-      "usernameEmptyError": "Kullanıcı adı boş olamaz",
-      "about": "Hakkında",
-      "pushNotifications": "Anında Bildirimler",
-      "support": "Destek",
-      "joinDiscord": "Discord'da bize katılın",
-      "privacyPolicy": "Gizlilik Politikası",
-      "userAgreement": "Kullanıcı Sözleşmesi",
-      "termsAndConditions": "Şartlar ve Koşullar",
-      "userprofileError": "Kullanıcı profili yüklenemedi",
-      "userprofileErrorDescription": "Lütfen sorunun devam edip etmediğini kontrol etmek için çıkış yapıp tekrar giriş yapmayı deneyin.",
-      "selectLayout": "Düzen seçin",
-      "selectStartingDay": "Başlangıç gününü seçin",
-      "version": "Sürüm"
     }
   },
   "grid": {
